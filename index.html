@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bionic Reading</title>
+    <link id="main_style" rel="stylesheet" href="./css/main_style.css">
+    <link id="header_style" rel="stylesheet" href="./css/header_style.css">
+    <link id="footer_style" rel="stylesheet" href="./css/footer_style.css">
+</head>
+<body>
+    <div id="div-header">
+        <ul id="ul-header">
+            <li class="usual">
+                <button id="dark_theme_btn" onclick="dark_theme(this.value)" value="0"><a href="javascript:void(0)">Dark Theme</a></button>
+            </li>
+            <li class="li-header">
+                <button><a href="https://twitter.com/pourya90091">Click on Me!</a></button>
+            </li>
+        </ul>
+        <div id="profile_icon"></div>
+    </div>
+    
+    <div class="paragraphs">
+        <p class="text">Put some text in me.</p>
+    </div>
+
+    <textarea name="text-input" id="" cols="45" rows="10"></textarea>
+
+    <button class="btn" onclick="saveText()">Save Text</button>
+
+    <div id="div-footer">
+        <ul id="ul-footer">
+            <li class="li-footer">
+                Hey, you.
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="./js/theme.js"></script>
+<script src="./js/main_script.js"></script>
+</html>
